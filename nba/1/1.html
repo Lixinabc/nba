@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+        <meta charset="utf-8">
+        <title>导航栏菜单的设计与实现</title>
+        <style>
+		body{background:url(../image/2.jfif);}
+          .navbar {
+    text-align:center;
+}
+.navbar ul {
+    display:inline-block;
+}
+.navbar li {
+    float:left;
+}
+.navbar li + li {
+    margin-left:20px;
+}
+            ul {
+                list-style: none;/*用于去掉列表标记实心点*/
+                margin: 0;
+                padding: 0;
+            }		
+            li {
+                float: left;
+            }
+            a:link, a:visited {
+                display: block;/*设置为块级元素*/
+                width: 100px;/*设置宽度为100像素*/
+                font-weight: bold;/*设置字体为加粗*/
+                color: white;/*设置字体为白色*/
+                background-color:#5AF;/*设置背景颜色为蓝色*/
+                text-align: center;/*设置文本居中显示*/
+                padding: 5px;/*设置各边内边距为5像素*/
+                text-decoration: none;/*去掉文本下划线*/
+            }
+            a:hover, a:active {
+                background-color:#006FDD;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="navbar">
+            <ul>
+                <li><a href="#">个人简介</a></li>
+				<li><a href="#">生涯高光</a></li>
+                <li><a href="#">测试</a></li>
+                <li><a href="#">互动游戏</a></li>
+   
+            </ul>
+        </div>
+    </body>
+
+</html>
